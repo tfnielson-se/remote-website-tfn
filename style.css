@@ -1,3 +1,18 @@
 body {
-    background: olivedrab;
+    background: sandybrown;
+}
+
+h1 {
+    text-align: center;
+    color: olive;
+    border-bottom: 10px;
+
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+#ol-main {
+    font-style: italic;
 }

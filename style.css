@@ -1,5 +1,9 @@
 body {
-    background: sandybrown;
+    background: #96ceb4;
+}
+
+div#top-div {
+    background: #ffeead;
 }
 
 h1 {
@@ -10,30 +14,27 @@ h1 {
 
 h2 {
     padding: 10px;
-    margin: auto;
     font-style: italic;
+    background: #588c7e;
 }
 
 table {
-    background: burlywood;
-    margin-left: auto;
-    margin-right: auto;
+    background: #ffcc5c;
     text-align: center;
+    margin: auto;
+    border-radius: 5px;
     border-collapse: collapse;
 }
 
-button {
-    
+tr td {
+    border: 1px solid black;
 }
 
-button:hover {
-    background-color: olive;
+#about-p {
+    text-align: center;
 }
 
 a:hover {
-    color: red
+    color: blue
 }
 
-#about-me {
-    text-align: center;
-}

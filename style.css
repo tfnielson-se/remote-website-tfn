@@ -1,40 +1,114 @@
 body {
-    background: #96ceb4;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    background: #87bdd8;
 }
-
-div#top-div {
-    background: #ffeead;
+header {
+    background: #034f84;
+    height: 100px;
+    margin-bottom: 10px;
+    display: block;
 }
 
 h1 {
     text-align: center;
-    margin: auto;
-    font-style: italic;
+    color: white;
+    line-height: 100px;
+    margin: 0;
 }
 
 h2 {
-    padding: 10px;
-    font-style: italic;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+#top article {
     background: #588c7e;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    flex: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: #f2e394;
 }
 
-table {
-    background: #ffcc5c;
+#mid article {
+    background: #f18973;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    flex: 200px;
+    border-radius: 10px;
     text-align: center;
-    margin: auto;
+    color: #f2e394;
+}
+
+#bottom article {
+    background: #d9ad7c;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    flex: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: #f2e394;
+}
+
+section#top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#mid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 150px;
+    height: 50px;
     border-radius: 5px;
-    border-collapse: collapse;
+    margin: 2px;
 }
 
-tr td {
-    border: 1px solid black;
+.prog {
+    background: #6b5b95;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-#about-p {
+#after-work {
+    background: #bd5734;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
     text-align: center;
 }
 
-a:hover {
-    color: blue
+img {
+    height: 250px;
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 10px;
 }
-

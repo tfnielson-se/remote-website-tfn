@@ -1,75 +1,93 @@
 <!DOCTYPE html>
 
-<html lang="en"></html>
+<html lang="en">
+    
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>TFN Website Flexbox</title>
+    </head>
+    <body>
+        <header>
+            <h1></h1>
+        </header>
+        
+<!--ABOUT ME-->
+        <section id="top">
+            <article>
+                <h2>About Me</h2>
+                <p>
+                    <li>Brazilian native. </li>
+                    <li>Lived in Aguascalientes, Mx from ages 7 - 18.</li>
 
-	<head>
-		<link rel="stylesheet" href="style.css">
+                    <li>Moved to Colorado in 2011.</li>
+                    <li>2016 Graduated from Colorado Mesa University</li> 
+                </p>    
+            </article>
+        
+<!--EDUCATION-->
+            <article>
+                <h2>Education</h2>
+                <p>
+                    <li>B.S Mechanical Engineering, Colorado Mesa University</li>
+                    <br>
+                    <li>Software Engineering Student @ Flatiron School, Denver</li>
+                </p>
+            </article>
 
-		<title>TFN's Website</title>
-	</head>
+<!--CONTACT ME-->
+            <article>
+                <h2>Contact Me</h2>
+                <button id="email-button"><a href="mailto:tfnielson.se@gmail.com">E-Mail</a></button>
+			    <button id="github-button"><a href="https://github.com/tfnielson-se">GitHub</a></button>
+			   <button id="twitter-button"><a href="https://twitter.com/Pointbreak_se">Twitter</a></button>
+            </article>
+        </section>
+        
+<!--PROGRAMMING SKILLS-->
+        <div class="prog">
+            <article id= "art-prog" class="prog">
+                <h2>Programming Help</h2>
+            </article>
+            <section id="mid">
+                <article>
+                    <h3>JavaScript</h3>
+                    <p id="js-links">// ADD LINK TO PAGES</p>
+                </article>
+                <article>
+                    <h3>HTML</h3>
+                    <p id="html-links">// ADD LINK TO PAGES</p>
+                </article>
+                <article>
+                    <h3>CSS</h3>
+                    <p id="css-links">// ADD LINK TO PAGES</p>
+                </article>
+                <article>
+                    <h3>DOM</h3>
+                    <p id="dom-links">// ADD LINK TO PAGES</p>
+                </article>
+            </section>
+        </div>
 
-	<body>
-		<h1></h1>
+        <div id="after-work">
+            <article>
+                <h2>After Work</h2>
+            </article>
+            <section id="bottom">
+                <article>
+                    <img src="./images/rio.jpg" alt="My dog Rio">
+					<br>Rio
+                </article>
+                <article>
+                    <img src="./images/jiujitsu.JPG" alt="Jiu Jitsu Competition">
+					<br>Jiu Jitsu
+                </article>
+                <article>
+                    <img src="./images/rafting.jpg" alt="Rafting">
+					<br>Rafting
+                </article>
+            </section>
+        </div>
 
-
-<!--NAV BAR-->
-
-		<div id="nav-bar"> 
-			
-		</div>
-
-<!--TOP ABOUT ME SECTION-->		
-
-		<div id="top-div"></div>
-		<br>
-		<div id="table">
-			<table>
-				<thead id="table-header">
-					<tr>
-						<th colspan="4">Programing Languages</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></td>
-						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></td>
-					</tr>
-					<tr>
-					<td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></td>
-					<td><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">DOM</a></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-
-<!--ABOUT ME SECTION-->	
-
-		<h2 id="about-me"></h2>
-
-		<section id="about-p">
-
-			<p>Welcome to my website, thank you for stopping by and getting to know me.
-				<div>I was born in Joinville, Brazil and moved to Aguascalientes, Mexico at the age of 7. After 11 years there my family moved back to Brazil in 2011 and I moved to Colorado to persue my college degree of Mechanical Engineering.</div>
-				<br><div>After graduating and spending some time on the Engineering field I realized that my interest developed towards softwares and automation, which is why I'm currently enrolled in a Software Engineering Bootcamp for the next 15 weeks.</div>
-			</p>
-			
-		</section>
-
-<!--CONTACT ME SECTION-->		
-
-		<h2 id="contact-me"></h2>
-
-		<section id="contact-section">
-
-			<p> You can contact me via:</p>
-			
-			<button id="email-button"><a href="mailto:tfnielson.se@gmail.com">E-Mail</a></button>
-			<button id="github-button"><a href="https://github.com/tfnielson-se">GitHub</a></button>
-			<button id="twitter-button"><a href="https://twitter.com/Pointbreak_se">Twitter</a></button>
-
-		</section>
-
-		<script src="index.js"></script>
-	</body>
-
+        <script src="index.js"></script>
+    </body>
 </html>
